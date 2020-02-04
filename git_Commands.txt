@@ -19,8 +19,7 @@ git checkout [commit] TAKES YOU TO A PREVIOUS POSSITION OF YOUR PROJECT
 git checkout master SWITCH TO BRANCH "MASTER" 
 
 git revert <commit> REVERT TO A SPECIFIC COMMMIT DONE AND KEEPS ALL OTHER COMMITS (VERY SAFE) 
-git reset [--soft, --mixed --hard] <commit> REVERTS PERMANENTcLY CHANGES
-one more line to the tiger
+git reset [--soft, --mixed --hard] <commit> REVERTS PERMANENTLY CHANGES
 git branch [name of the branch] CREATES A NEW BRANCH
 git checkout -b [name of the branch] CREATES A NEW BRANCH AND SWITCH TO THAT BRANCH
 git branch -a DISPLAYS A LIST OF ALL OF THE BRANCHES AND IN WHICH BRANCH ARE YOU CURRENTLY ON
@@ -40,10 +39,10 @@ CONNET LOCAL REPOSITORY TO THE REMOTE REPOSITORY
 
 // LOCAL REPOSITORY (my machine)
 3.- Inside of the directory type
-	git remote add [repository link]
+	git remote add origin [repository link]
 4.- Check if it connected properly
 	git remote -v
-  
+5.- git pull origin master FETCH ALL FROM REMOTE REPOSITORY TO LOCAL REPOSITORY
 
 
 
