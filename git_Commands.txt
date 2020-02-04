@@ -1,0 +1,49 @@
+xdg-open [file_name + extension] OPEN ANY FILE 
+touch [file_name + extension] CREATE A FILE
+mkdir [folder_name] CREATE A DIRECTORY 
+rm [file_name + extension] DELETE A FILE
+rm -r [Folder_name] DELETE A DIRECTORY
+cp -a /source/. /dest/ COPY A FILE TO ANOTHER DESTINY
+touch .gitignore CREATE A HIDDEN FILE TO KEEP ALL OF THE FILES AND DIRECTORIES TO BE IGNORED 
+
+********************** GIT *********************
+
+git init INITIALIZE THE REPOSITORY 
+git add [file_name + extension] ADD A FILE TO THE STAGING AREA
+git add . ADD EVERYTHING WITHINT THE REPOSITORY TO THE STAGING AREA
+git rm -f [file_name + extension] REMOVE A FILE TO THE STAGING AREA AND PC PERMANENTLY
+git rm --cached [file_name + extension] REMOVE A FILE TO THE STAGING AREA TEMPORARILY
+git commit -m [message/description] COMMIT THE FILES AND ADD A DESCRIPTION OF THE COMMIT
+git log LIST OF COMMITS THROUGH TIME
+git checkout [commit] TAKES YOU TO A PREVIOUS POSSITION OF YOUR PROJECT
+git checkout master SWITCH TO BRANCH "MASTER" 
+
+git revert <commit> REVERT TO A SPECIFIC COMMMIT DONE AND KEEPS ALL OTHER COMMITS (VERY SAFE) 
+git reset [--soft, --mixed --hard] <commit> REVERTS PERMANENTcLY CHANGES
+one more line to the tiger
+git branch [name of the branch] CREATES A NEW BRANCH
+git checkout -b [name of the branch] CREATES A NEW BRANCH AND SWITCH TO THAT BRANCH
+git branch -a DISPLAYS A LIST OF ALL OF THE BRANCHES AND IN WHICH BRANCH ARE YOU CURRENTLY ON
+git checkout [name of the branch] MOVE BETWEEN BRANCHES
+git branch -d [name of the branch] DELETE A BRANCH
+git merge [name of the branch] MERGE TO BRANCHES TOGETHER
+
+********************** GITHUB *********************
+CONNET LOCAL REPOSITORY TO THE REMOTE REPOSITORY
+//LOCAL REPOSITORY (my machine)
+1.- Make a new directory
+2.- Initialise git => git init
+
+// REMOTE REPOSITORY (github.com)
+1.- CREATE A NEW REPOSITORY IN GITHUB
+2.- COPY LINK
+
+// LOCAL REPOSITORY (my machine)
+3.- Inside of the directory type
+	git remote add [repository link]
+4.- Check if it connected properly
+	git remote -v
+  
+
+
+
